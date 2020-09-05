@@ -1,6 +1,8 @@
-const express = require('express')
-const app = express()
-const port = 3001
+const express = require('express');
+const app = express();
+const port = 3001;
+
+
 
 
 app.options("/*", function(req, res, next){
@@ -26,5 +28,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+  console.log(`User Maintenance app listening at http://localhost:${port}`)
+});
