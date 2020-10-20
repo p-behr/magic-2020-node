@@ -8,3 +8,4 @@ odbc.connect('DSN=MAGIC', (error, connection) => {
         console.log(result);
     })
 });
+
